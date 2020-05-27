@@ -7,4 +7,8 @@ be sure that you have expo installed read here who to.
 
 ## who to setup
 -clone repo
--
+-have cmd in folder an run
+-$ expo install
+-$ expo start
+...
+
