@@ -1,8 +1,9 @@
 # imageGallery
 a native app that shows images fron Flickr written in React Native
 
-##prerequisets
-be sure tahat you have expo installed read here who to.
+## prerequisites
+be sure that you have expo installed read here who to.
+[https://expo.io/learn]
 
 ## who to setup
 -clone repo

@@ -12,6 +12,8 @@
     ],
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "description": "a test app showing flickr images ",
+    "githubUrl": "https://github.com/ParAnton/imageGallery"
   }
 }
