@@ -13,5 +13,5 @@ Be sure that you have expo installed read here who to
 - ...
   
 ## just test the app
-The app can be tested if you have an expo client installed on your phone just click on this link if you are readng this on a n ios or android device [expoImageGallery](exp://exp.host/@paw71/imageGallery) if not go to this [site](https://expo.io/@paw71/imageGallery) and scan the qrcode with your device.
+The app can be tested if you have an expo client installed on your phone just go to this [site](https://expo.io/@paw71/imageGallery) and scan the qrcode with your device.
 
