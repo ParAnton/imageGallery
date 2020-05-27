@@ -3,6 +3,7 @@ import { Platform, StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import WelcomeScreen from './src/welcome';
+import BugScreen from './src/flickrGallery';
 
 const instructions = Platform.select({
   ios: `Press Cmd+R to reload,\nCmd+D or shake for dev menu`,
@@ -16,6 +17,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Welcome" component={WelcomeScreen} />
+        <Stack.Screen name="GalleryScreen" component={BugScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
