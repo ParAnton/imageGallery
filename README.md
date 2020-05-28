@@ -2,10 +2,12 @@
 A native app that shows images fron Flickr written in React Native
 
 ## prerequisites
-Be sure that you have expo installed read here who to
+If you haven't insatlled expo-cli do it by running
+```$ npm install -g expo-cli```
+Read more about it here
 [setup expo](https://expo.io/learn)
 
-## who to setup
+## how to setup
 - clone repo
 - have cmd in folder and run
 - ```$ expo install```
