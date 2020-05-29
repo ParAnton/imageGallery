@@ -14,7 +14,7 @@ const navigateToBugGallery = (navigation)=>{
   navigation.navigate('GalleryScreen',{galleryId:'72157714206344417', galleryName:'bugs'});
 }
 const navigateToCloseUpGallery = (navigation)=>{
-  console.log('lets navigate to bug Gallery');
+  console.log('lets navigate to close Up Gallery');
   navigation.navigate('GalleryScreen',{galleryId:'72157712544669811', galleryName:'Close Ups'});
 }
 

@@ -25,7 +25,7 @@ const readFromImageGallery = async (galleryId = defaultFlickrgalleryId) => {
   const res = await axios.get(`https://api.flickr.com/services/rest/?method=flickr.galleries.getPhotos&api_key=14398bc96255b68a5f45f3ddc057add5&gallery_id=${galleryId}&format=json&nojsoncallback=1&per_page=3`);
 
   const images1 = res;
-  console.log(images1);
+  // console.log(images1);
   const images = R.path(['data', 'photos', 'photo'], res);
   return images;
 };
@@ -45,7 +45,7 @@ const navigateToGallery = () => {
 const ImageView = ({image, imageSize}) => {
   const imageSource = getImageSource(image);
   return (
-    <View key={R.prop('id', image)} style={{ padding: 5 }}>
+    <View style={{ padding: 5 }}>
       <Text>{R.prop('title', image)}</Text>
       <TouchableOpacity onPress={() => { WebBrowser.openBrowserAsync(imageSource) }}>
         <Image
@@ -94,7 +94,7 @@ const GalleryScreen = ({ route }) => {
         <ScrollView>
           {
             images.map((image) => (
-              <ImageView image={image} imageSize={imageSize} />
+              <ImageView key={R.prop('id', image)} image={image} imageSize={imageSize} />
             ))
           }
         </ScrollView>
